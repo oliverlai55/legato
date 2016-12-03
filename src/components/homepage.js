@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { fetchCollection } from '../actions/index';
-import { CalendarEvents } from './calendar-events';
+import CalendarEvents from './calendar-events';
 
 import { Link } from 'react-router';
 
