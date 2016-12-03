@@ -16,7 +16,8 @@ export default class HomePage extends Component {
     return (
       <div>
         <div className="container">
-          <h1>asdf</h1>
+          <img src="../../img/legato-logo.png"/>
+          <h1></h1>
         </div>
       </div>
     )

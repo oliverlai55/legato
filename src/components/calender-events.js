@@ -9,12 +9,19 @@ class CalenderEvents extends Component {
   }
 
   componentDidMount() {
+    this.props.fetchCalendarData();
+  }
+
+  renderCalendarData() {
 
   }
 
   render() {
     return
       <div>
+        <div>
+          {this.renderCalendarData()}
+        </div>
       </div>
   }
 }
