@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { fetchCalendarData } from '..actions/index';
+import { fetchCalendarData } from '../actions/index';
 
 class CalenderEvents extends Component {
   constructor() {
@@ -15,7 +15,7 @@ class CalenderEvents extends Component {
 
   renderCalendarData() {
     if (this.props.musicData) {
-      return this.props.musicData
+      console.log(this.props.musicData);
     }
   }
 
